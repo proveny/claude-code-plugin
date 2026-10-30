@@ -15,12 +15,12 @@ Then restart Claude Code, run `/mcp`, select `proveny` and choose **Authenticate
 opens Proveny; sign in if you need to and allow Claude Code for your workspace.
 
 Your workspace needs Proveny's MCP access. You can find the setup in Proveny under
-**Settings → Integrations**.
+**MCP** (left menu).
 
 ## Use another Proveny server
 
 The plugin connects to `https://api.proveny.ai/mcp`. To connect to another Proveny server (for
-example a test server), copy its **Server URL** from **Settings → Integrations** on that server and
+example a test server), copy its **Server URL** from **MCP** (left menu) on that server and
 add it by hand:
 
 ```bash
@@ -38,4 +38,4 @@ Then run `/mcp`, select `proveny-test` and choose **Authenticate**.
 
 ## Disconnect
 
-In Proveny, open **Settings → Integrations** and click **Disconnect** next to Claude Code.
+In Proveny, open **MCP** (left menu) and click **Disconnect** next to Claude Code.
