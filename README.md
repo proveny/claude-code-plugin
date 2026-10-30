@@ -17,6 +17,18 @@ opens Proveny; sign in if you need to and allow Claude Code for your workspace.
 Your workspace needs Proveny's MCP access. You can find the setup in Proveny under
 **Settings → Integrations**.
 
+## Use another Proveny server
+
+The plugin connects to `https://api.proveny.ai/mcp`. To connect to another Proveny server (for
+example a test server), copy its **Server URL** from **Settings → Integrations** on that server and
+add it by hand:
+
+```bash
+claude mcp add --transport http proveny-test <Server URL>
+```
+
+Then run `/mcp`, select `proveny-test` and choose **Authenticate**.
+
 ## What it can do
 
 - Read your products and their sell angles.
