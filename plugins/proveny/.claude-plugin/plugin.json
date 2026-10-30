@@ -1,0 +1,11 @@
+{
+  "name": "proveny",
+  "version": "0.1.0",
+  "description": "Proveny video agent: make and remix product video ads from Claude Code.",
+  "author": {
+    "name": "Proveny",
+    "url": "https://proveny.ai"
+  },
+  "homepage": "https://proveny.ai",
+  "privacyPolicyUrl": "https://proveny.ai/privacy"
+}

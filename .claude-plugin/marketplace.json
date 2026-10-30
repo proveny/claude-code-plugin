@@ -1,0 +1,12 @@
+{
+  "name": "proveny",
+  "owner": { "name": "Proveny", "url": "https://proveny.ai" },
+  "metadata": { "description": "Make short video ads of your products with Proveny." },
+  "plugins": [
+    {
+      "name": "proveny",
+      "source": "./plugins/proveny",
+      "description": "Proveny video agent: make and remix product video ads from Claude Code."
+    }
+  ]
+}

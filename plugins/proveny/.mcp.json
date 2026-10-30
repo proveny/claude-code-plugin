@@ -1,0 +1,1 @@
+{ "mcpServers": { "proveny": { "type": "http", "url": "https://api.proveny.ai/mcp" } } }
