@@ -38,4 +38,8 @@ Then run `/mcp`, select `proveny-test` and choose **Authenticate**.
 
 ## Disconnect
 
-In Proveny, open **MCP** (left menu) and click **Disconnect** next to Claude Code.
+Uninstall the plugin in Claude Code:
+
+```bash
+claude plugin uninstall proveny@proveny
+```
